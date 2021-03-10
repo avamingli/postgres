@@ -323,6 +323,7 @@ typedef struct _tableInfo
 
 	int			numParents;		/* number of (immediate) parent tables */
 	struct _tableInfo **parents;	/* TableInfos of immediate parents */
+
 	bool		isivm;			/* is incrementally maintainable materialized view? */
 
 	/*
